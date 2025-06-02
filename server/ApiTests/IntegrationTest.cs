@@ -1,7 +1,7 @@
 using Api;
 using Microsoft.AspNetCore.Mvc.Testing;
 
-namespace ApiTests;
+namespace Tests;
 
 public class IntegrationTest : IDisposable
 {

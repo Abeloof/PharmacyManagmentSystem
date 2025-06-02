@@ -1,13 +1,10 @@
 using System.Net;
 using System.Net.Http.Json;
-using Api.Data.Entities;
 using Api.Domain.Dtos.Medication;
 using Api.Domain.Dtos.Patient;
-using Api.Domain.Models;
-using Newtonsoft.Json;
 using Xunit;
 
-namespace ApiTests.IntegrationTests;
+namespace Tests.IntegrationTests;
 
 public class PaitentsIntegrationTests : IntegrationTest
 {
