@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" />
+    <PackageReference Include="NSubstitute" />
+    <PackageReference Include="xunit.runner.visualstudio" />
+    <PackageReference Include="xunit" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="UnitTests/" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../Common/PMS.Common.csproj" />
+    <ProjectReference Include="../Core/PMS.Core.csproj" />
+    <ProjectReference Include="../Infrastructure/PMS.Infrastructure.csproj" />
+    <ProjectReference Include="../Web/PMS.WebApi.csproj" />
+  </ItemGroup>
+
+</Project>

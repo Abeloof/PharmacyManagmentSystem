@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+    <PackageReference Include="Swashbuckle.AspNetCore" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" /> 
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../Common/PMS.Common.csproj" />
+    <ProjectReference Include="../Infrastructure/PMS.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
