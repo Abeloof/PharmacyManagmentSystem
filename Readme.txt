@@ -1,3 +1,7 @@
+Objective
+	manage patient prescriptions in a pharmacy management system. goal is to create an API that allows for:Adding a new prescription & Retrieving a prescription by patient ID
+	Angular component to display and add prescriptions for a given Patient ID
+
 TODO
 	docker compose configuration needs to be complete
         project builds in a dev environment
