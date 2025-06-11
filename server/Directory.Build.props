@@ -1,5 +1,8 @@
 <Project>
-
+  <!-- 
+       file is imported by Microsoft.Common.props, so the properties defined therein are available in the project file.
+       They can be redefined in the project file to customize the values on a per-project basis
+  -->
   <PropertyGroup>
   </PropertyGroup>
 
